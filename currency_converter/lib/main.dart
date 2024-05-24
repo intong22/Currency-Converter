@@ -7,8 +7,8 @@ void main() {
   runApp(const MyApp());
 }
 
-//StatelessWidget - immutable - di ma change
-//StatefulWidget - mutable - ma change
+//StatelessWidget - immutable - cannot be changed
+//StatefulWidget - mutable - can be changed
 
 //Design Systems:
 
@@ -36,7 +36,7 @@ class MyCupertinoApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const CupertinoApp(
-      home: CurrenyConverterCupertinoPage(),
+      home: CurrencyConverterCupertinoPage(),
     );
   }
 }

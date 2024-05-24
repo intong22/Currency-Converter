@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 
-class CurrenyConverterCupertinoPage extends StatefulWidget {
-  const CurrenyConverterCupertinoPage({super.key});
+class CurrencyConverterCupertinoPage extends StatefulWidget {
+  const CurrencyConverterCupertinoPage({super.key});
 
   @override
-  State<CurrenyConverterCupertinoPage> createState() => _CurrenyConverterCupertinoPageState();
+  State<CurrencyConverterCupertinoPage> createState() => _CurrencyConverterCupertinoPage();
 }
 
-class _CurrenyConverterCupertinoPageState extends State<CurrenyConverterCupertinoPage> {
+class _CurrencyConverterCupertinoPage extends State<CurrencyConverterCupertinoPage> {
   double result = 0;
   final TextEditingController textEditingController = TextEditingController();
 
