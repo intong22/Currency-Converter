@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: CurrencyConverterMaterialPage(),
+      debugShowCheckedModeBanner: false,
     );
 
   }
@@ -37,6 +38,7 @@ class MyCupertinoApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CupertinoApp(
       home: CurrencyConverterCupertinoPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
